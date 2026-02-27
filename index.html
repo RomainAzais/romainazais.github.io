@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Romain Azaïs</title>
+        <link rel="icon" type="image/png" href="assets/terre.png">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    
+    <body>
+
+        <!-- HEADER -->
+        <header>
+            <!-- Bloc de gauche -->
+            <div class="header-left">
+                <img src="assets/cropped_ra.jpg" alt="my_photo">
+                <div class="header-text">
+                    <h1>Romain Azaïs</h1>
+                    <h3>Inria Research Scientist</h3>
+                </div>
+            </div>
+
+            <!-- Bloc central -->
+            <div class="header-center">
+                <img src="assets/logo_inria.png" alt="Inria">
+            </div>
+
+            <!-- Bloc de droite -->
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/romainazais/" target="_blank">
+                    <img src="assets/logo_linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://www.tchap.gouv.fr/#/user/@romain.azais-inria.fr:agent.education.tchap.gouv.fr" target="_blank">
+                    <img src="assets/logo_tchap.png" alt="Tchap">
+                </a>
+            </div>
+        </header>
+
+        <!-- MENU -->
+        <nav>
+            <ul>
+                <li><a href="#">Presentation</a></li>
+                <li><a href="#">Publications</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#">Code</a></li>
+                <li><a href="#">Teaching</a></li>
+            </ul>
+        </nav>
+
+        <!-- MAIN -->
+        <main>
+            <h2>Presentation</h2>
+            <p>
+                I am a research scientist in applied mathematics at <a href="https://www.inria.fr/fr/centre-inria-de-lyon">Inria Lyon</a>, France.
+            </p>
+
+            <h3>Main research interests</h3>
+
+            <ul>
+                <li>Inference and simulation of stochastic processes</li>
+                <li>Learning on combinatorial structures</li>
+                <li>Applications in geography and social sciences</li>
+            </ul>
+
+            <h3>Short bio</h3>
+            <ul>
+                <li>Since April 2025, I am an Associate Editor for the three series of Communications in Statistics: <a href="https://www.tandfonline.com/toc/lsta20/current">Theory and Methods</a>; <a href="https://www.tandfonline.com/toc/lssp20/current">Simulation and Computation</a>; <a href="https://www.tandfonline.com/toc/ucas20/current">Case Studies, Data Analysis and Applications</a>.</li>
+                <li>Since 2022, I am an elected member of the <a href="https://www.sfds.asso.fr/fr/statistique_mathematique/465-statistique_mathematique/">mathematical statistics group</a> of the <a href="https://www.sfds.asso.fr/">French Statistical Society</a>. I am its president since Summer 2024.</li>
+                <li>I defended my habilitation thesis at ENS de Lyon in December 2022.</li>
+                <li>I defended my PhD thesis at Université Bordeaux 1 in July 2013.</li>
+            </ul>
+
+            <h3>Office</h3>
+            <p>
+                3.06, Centre Inria de Lyon<br/>
+                56, boulevard Niels Bohr, 69100 Villeurbanne<br/>
+                romain.azais at inria.fr
+            </p>
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            © <span id="year"></span> Romain Azaïs
+        </footer>
+
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+
+    </body>
+</html>
