@@ -188,16 +188,20 @@ main a:hover {
 }
 
 main ul {
+    list-style: none;
     padding-left: 30px;
 }
 
 main ul li {
+    position: relative;
     margin-bottom: 0.4em;
     line-height: 1.2;
 }
 
-main ul li::marker {
-    content: "≻ ";
+main ul li::before {
+    content: "≻";
+    position: absolute;
+    left: -20px;
     color: var(--colD);
     font-weight: bold;
 }
